@@ -13,7 +13,7 @@ const TRANSLATIONS = {
       "Նորարարական QR լուծումներ, որոնք ընդգծում են ձեր հաստատության կարգավիճակը",
       "Միջին կտրոնի աճ մինչև 20% լրացուցիչ վաճառքի հաշվին",
       "Մատուցողի ակնթարթային կանչ և ժամանակի խնայողություն",
-      "Պրեմիում թվային ծառայություն ձեր հյուրերի համար"
+      "Պրեմիում սպասարկում սեղանի մոտ՝ QR-կոդի սկանավորմամբ"
     ],
     botName: "System Bot",
     justNow: "Հենց նոր",
@@ -24,10 +24,10 @@ const TRANSLATIONS = {
     hospitality: "արվեստ",
     readBenefits: "ՕԳՈՒՏՆԵՐ ԲԻԶՆԵՍԻ ՀԱՄԱՐ",
     format1Label: "ԱՄԲՈՂՋԱԿԱՆ ՑԻԿԼ",
-    format1Title: "Ֆլագման: Թվային մենյու զամբյուղով",
+    format1Title: "Ֆլագման: Պրեմիում QR-մենյու զամբյուղով",
     format1Desc: "Արագ պատվեր սեղանին առանց մատուցողին սպասելու",
     format2Label: "ԱՎԱՆԴԱԿԱՆ ՍՊԱՍԱՐԿՈՒՄ",
-    format2Title: "Կլասիկա: Ինտերակտիվ ցուցափեղկ",
+    format2Title: "Կլասիկա: QR-ցուցափեղկ՝ անձնակազմի կանչով",
     format2Desc: "Ճաշատեսակների նկարներ, բաղադրություն, հաշվի և կանչի կոճակներ",
     demoLabel: "ԻՐԱԿԱՆ ԺԱՄԱՆԱԿՈՒՄ",
     demoTitle: "Աշխատանքային չաթ (Telegram)",
@@ -47,8 +47,8 @@ const TRANSLATIONS = {
     item3Desc: "Սաղմոնը վերջացե՞լ է կամ գինը փոխվե՞լ է: Ձեր ցանկացած ադմինիստրատոր ինտուիտիվ վահանակում մի քանի հպումով ակնթարթորեն կթարմացնի մենյուն բոլոր սեղաններին: Մոռացեք հյուրերից ներողություն խնդրելու բացակայող դիրքերի համար և թղթի վերատպման ծախսերի մասին:",
     item4Title: "Ակնթարթային կապ սրահի հետ",
     item4Desc: "«Կանչել մատուցողին» և «Խնդրել հաշիվը» կոճակներն ուղարկում են անձայն Push ծանուցում անմիջապես Telegram-ի աշխատանքային չաթ: Պիկ ժամերին ոչ մի բարձրացրած ձեռք և դժգոհ հայացք:",
-    item5Title: "Պրեմիում էսթետիկա",
-    item5Desc: "Փայլուն ամսագրերի մակարդակի դիզայն: Աշխատում է կայծակնային արագությամբ ցանկացած սմարթֆոնի վրա՝ առանց հավելվածներ ներբեռնելու:",
+    item5Title: "Պրեմիում էսթետիկա սեղաններին",
+    item5Desc: "Մոռացեք էժանագին կպչուն պիտակների մասին: Մենք ստեղծում ենք ոճային QR-դիսփլեյներ, որոնք կընդգծեն ձեր ինտերիերը: Հյուրն ուղղակի պահում է տեսախցիկը, և մոգությունը սկսվում է առանց հավելվածների:",
     formatsTitle: "Հասանելի է երկու ձևաչափով․",
     flagship: "ՖԼԱԳՄԱՆ․",
     flagshipDesc: "Ամբողջական ցիկլ զամբյուղով (հյուրը հավաքում է պատվերը, մատուցողը հաստատում է)։",
@@ -60,7 +60,7 @@ const TRANSLATIONS = {
     step1Title: "ՔԱՅԼ 1. Միացեք անձնակազմի դեմո չաթին",
     step1Desc: "Միացեք Telegram-ի թեստային խմբին՝ հենց այստեղ են իրական հաստատություններում ակնթարթորեն գալիս ծանուցումներ:",
     step1Btn: "Միանալ սրահի Telegram չաթին ↗",
-    step2Title: "ՔԱՅԼ 2. Բացեք ինտերակտիվ մենյուն",
+    step2Title: "ՔԱՅԼ 2. Պատկերացրեք, հյուրը սկանավորել է QR-ը. Բացեք մենյուն՝",
     step2Desc: "Ընտրեք թեստի ձևաչափը պրեզենտացիայի գլխավոր էկրանին:",
     step2Bul1: "Ֆլագման․ զամբյուղի մեջ ավելացրեք սթեյք և սեղմեք «Ձևակերպել պատվերը»:",
     step2Bul2: "Կլասիկա․ սեղմեք «Կանչել մատուցողին» կամ «Խնդրել հաշիվը»:",
@@ -76,7 +76,7 @@ const TRANSLATIONS = {
       "Инновационные QR-решения, подчеркивающие статус вашего заведения",
       "Рост среднего чека до 20% за счет апсейла",
       "Мгновенный вызов официанта и экономия времени",
-      "Премиальный цифровой сервис для ваших гостей"
+      "Премиальный сервис по скану QR-кода прямо за столиком"
     ],
     botName: "System Bot",
     justNow: "Только что",
@@ -87,10 +87,10 @@ const TRANSLATIONS = {
     hospitality: "гостеприимства",
     readBenefits: "ВЫГОДА ДЛЯ БИЗНЕСА",
     format1Label: "ПОЛНЫЙ ЦИКЛ",
-    format1Title: "Флагман: Цифровое меню с корзиной",
+    format1Title: "Флагман: Премиальное QR-меню с корзиной",
     format1Desc: "Быстрый заказ к столу без ожидания официанта",
     format2Label: "ТРАДИЦИОННЫЙ СЕРВИС",
-    format2Title: "Классика: Интерактивная витрина меню",
+    format2Title: "Классика: QR-витрина с вызовом персонала",
     format2Desc: "Фото блюд, составы, кнопка счета и вызова персонала",
     demoLabel: "В РЕАЛЬНОМ ВРЕМЕНИ",
     demoTitle: "Рабочий чат зала (Telegram)",
@@ -110,8 +110,8 @@ const TRANSLATIONS = {
     item3Desc: "Закончился лосось или изменилась цена? Любой ваш администратор за пару кликов в интуитивной панели мгновенно обновит меню на всех столах. Забудьте про извинения перед гостями за отсутствующие позиции и затраты на перепечатку бумаги.",
     item4Title: "Мгновенная связь с залом",
     item4Desc: "Кнопки «Позвать официанта» и «Попросить счет» отправляют тихое Push-уведомление прямо в рабочий чат Telegram. Никаких поднятых рук и недовольных взглядов в часы пик.",
-    item5Title: "Премиальная эстетика",
-    item5Desc: "Дизайн уровня глянцевых журналов. Работает молниеносно на любом смартфоне без скачивания приложений.",
+    item5Title: "Премиальная эстетика на столах",
+    item5Desc: "Забудьте про дешевые наклейки. Мы создаем стильные QR-дисплеи, идеально вписывающиеся в интерьер. Гость наводит камеру — и магия начинается без скачиваний.",
     formatsTitle: "Доступно в двух форматах:",
     flagship: "ФЛАГМАН:",
     flagshipDesc: "Полный цикл с корзиной (гость собирает заказ, официант подтверждает).",
@@ -123,7 +123,7 @@ const TRANSLATIONS = {
     step1Title: "ШАГ 1. Подключитесь к демо-чату персонала",
     step1Desc: "Вступите в тестовую Telegram-группу — именно сюда в реальных заведениях мгновенно прилетают уведомления для официантов и администраторов зала.",
     step1Btn: "Вступить в Telegram-чат зала ↗",
-    step2Title: "ШАГ 2. Откройте интерактивное меню",
+    step2Title: "ШАГ 2. Представьте, что гость отсканировал QR. Откройте меню:",
     step2Desc: "Выберите формат для теста на главном экране презентации:",
     step2Bul1: "Флагман: добавьте стейк или десерт в корзину и нажмите «Оформить заказ».",
     step2Bul2: "Классика: нажмите кнопки «Позвать официанта» или «Попросить счет».",
@@ -139,7 +139,7 @@ const TRANSLATIONS = {
       "Innovative QR solutions that highlight your establishment's status",
       "Increase average check by up to 20% through upselling",
       "Instant waiter call and time saving",
-      "Premium digital service for your guests"
+      "Premium service by scanning a QR code right at the table"
     ],
     botName: "System Bot",
     justNow: "Just now",
@@ -150,10 +150,10 @@ const TRANSLATIONS = {
     hospitality: "hospitality",
     readBenefits: "BUSINESS BENEFITS",
     format1Label: "FULL CYCLE",
-    format1Title: "Flagship: Digital menu with cart",
+    format1Title: "Flagship: Premium QR menu with cart",
     format1Desc: "Fast table ordering without waiting for a waiter",
     format2Label: "TRADITIONAL SERVICE",
-    format2Title: "Classic: Interactive menu showcase",
+    format2Title: "Classic: QR showcase with staff call",
     format2Desc: "Dish photos, ingredients, bill and staff call buttons",
     demoLabel: "REAL-TIME",
     demoTitle: "Staff working chat (Telegram)",
@@ -173,8 +173,8 @@ const TRANSLATIONS = {
     item3Desc: "Salmon ran out or the price changed? Any of your administrators can instantly update the menu on all tables with a couple of clicks in the intuitive panel. Forget about apologizing to guests for missing items and the cost of reprinting paper.",
     item4Title: "Instant communication with the room",
     item4Desc: "The «Call waiter» and «Ask for bill» buttons send a quiet Push notification right to the Telegram work chat. No raised hands and dissatisfied looks during peak hours.",
-    item5Title: "Premium aesthetics",
-    item5Desc: "Magazine-level design. Works lightning fast on any smartphone without downloading applications.",
+    item5Title: "Premium aesthetics on the tables",
+    item5Desc: "Forget cheap stickers. We create stylish QR displays that perfectly match your interior. The guest simply points the camera — and the magic begins without downloads.",
     formatsTitle: "Available in two formats:",
     flagship: "FLAGSHIP:",
     flagshipDesc: "Full cycle with a cart (guest collects order, waiter confirms).",
@@ -186,7 +186,7 @@ const TRANSLATIONS = {
     step1Title: "STEP 1. Join the staff demo chat",
     step1Desc: "Join the test Telegram group — this is exactly where notifications for waiters and floor managers arrive instantly in real establishments.",
     step1Btn: "Join the venue's Telegram chat ↗",
-    step2Title: "STEP 2. Open the interactive menu",
+    step2Title: "STEP 2. Imagine a guest scanned the QR. Open the menu:",
     step2Desc: "Choose a test format on the main presentation screen:",
     step2Bul1: "Flagship: add a steak or dessert to the cart and click «Place Order».",
     step2Bul2: "Classic: click the «Call Waiter» or «Ask for Bill» buttons.",
@@ -284,7 +284,6 @@ export default function PresentationApp() {
       `}} />
 
       {}
-      {/* Top Left Premium Badge & Language Switcher perfectly aligned */}
       <div className="absolute top-4 left-4 sm:top-5 sm:left-5 z-50 flex items-center gap-1 sm:gap-1.5 px-2.5 py-1 bg-[#1C1C1E] backdrop-blur-md border border-white/10 rounded-full shadow-lg h-[28px]">
         <Sparkles className="w-3 h-3 text-zinc-400" strokeWidth={1.5} />
         <span className="text-[9px] font-medium uppercase tracking-[0.2em] text-zinc-300">
@@ -304,12 +303,11 @@ export default function PresentationApp() {
         ))}
       </div>
 
-      {/* Background elements */}
+      {}
       <div className="absolute top-[-20%] left-[-10%] w-[70vw] h-[70vw] rounded-full bg-white/5 blur-[120px] animate-glow pointer-events-none z-0"></div>
       <div className="absolute bottom-[-20%] right-[-10%] w-[60vw] h-[60vw] rounded-full bg-zinc-600/5 blur-[120px] animate-glow pointer-events-none z-0" style={{ animationDelay: '5s' }}></div>
 
       {}
-      {/* Dynamic responsive padding: Reduced top padding (pt-14) to fit larger texts on small screens */}
       <div className="relative z-10 w-full max-w-md mx-auto h-full flex flex-col px-4 sm:px-5 pt-[56px] sm:pt-[64px] pb-3 sm:pb-5 justify-between">
         
         {/* Header Block */}
@@ -320,7 +318,6 @@ export default function PresentationApp() {
             <span className="premium-text-gradient font-medium italic">{t.hospitality}</span>
           </h1>
           
-          {/* ФИКСИРОВАННАЯ ВЫСОТА ТЕКСТА: 60px вмещает 3 строчки текста, исключая любые прыжки */}
           <div className="min-h-[60px] sm:min-h-[64px] flex items-start justify-center w-full mb-1 mt-1">
             <p className={`text-[12px] sm:text-[13px] text-zinc-400 font-light leading-relaxed max-w-[300px] transition-opacity duration-500 px-4 ${isTextVisible ? 'opacity-100' : 'opacity-0'}`}>
               {t.benefits[currentTextIndex]}
@@ -338,7 +335,6 @@ export default function PresentationApp() {
         </div>
 
         {}
-        {/* Formats Block - Кнопки увеличены, тексты увеличены, идеальное выравнивание по левому краю */}
         <div className="w-full flex-1 flex flex-col justify-center gap-2 sm:gap-3 py-1.5 sm:py-3 opacity-0" style={{ animation: 'fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards 0.2s' }}>
           
           {/* Button 1: Flagship */}
@@ -409,7 +405,6 @@ export default function PresentationApp() {
       </div>
 
       {}
-      {/* 1. Benefits Bottom Sheet - Текст увеличен */}
       <div className={`fixed inset-0 z-[100] flex items-end justify-center transition-all duration-500 ${isBenefitsOpen ? 'visible' : 'invisible'}`}>
         <div 
           className={`absolute inset-0 bg-black/60 backdrop-blur-md transition-opacity duration-500 ${isBenefitsOpen ? 'opacity-100' : 'opacity-0'}`}
@@ -512,7 +507,6 @@ export default function PresentationApp() {
       </div>
 
       {}
-      {/* 2. Test Drive Bottom Sheet - Текст увеличен */}
       <div className={`fixed inset-0 z-[100] flex items-end justify-center transition-all duration-500 ${isTestDriveOpen ? 'visible' : 'invisible'}`}>
         <div 
           className={`absolute inset-0 bg-black/60 backdrop-blur-md transition-opacity duration-500 ${isTestDriveOpen ? 'opacity-100' : 'opacity-0'}`}
